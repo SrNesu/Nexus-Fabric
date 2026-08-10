@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "nexus",
+  "version": "${version}",
+  "name": "Nexus",
+  "description": "A supernatural power system mod inspired by manga lore. Discover, master, and evolve your Nexus powers.",
+  "authors": [
+    "SrNesu"
+  ],
+  "contact": {
+    "homepage": "https://github.com/SrNesu/Nexus-Fabric",
+    "sources": "https://github.com/SrNesu/Nexus-Fabric"
+  },
+  "license": "MIT",
+  "icon": "assets/nexus/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.nexus.NexusMod"
+    ],
+    "client": [
+      "com.nexus.client.NexusClientMod"
+    ]
+  },
+  "mixins": [
+    "nexus.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.20.1",
+    "java": ">=17"
+  }
+}
